@@ -1,0 +1,63 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/*================== BLOGER HEADER ======================*/
+
+.blog-header {
+    margin-top: 7rem;
+    max-width: 700px;
+}
+
+@media (max-width: 768px) {
+    .blog-header {
+        margin-top: 8rem;
+    }
+}
+
+/*==================== CONTAINER ============================*/
+
+.container {
+    max-width: 960px;
+}
+
+/*================================= TEAM =============================*/
+
+.team {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+/*======================== CARD BODY ========================*/
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.card-text {
+    padding-left: 1rem;
+}
+
+.card-block {
+    min-height: 220px;
+}
+
+/*========================= ACTIVE =========================*/
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
